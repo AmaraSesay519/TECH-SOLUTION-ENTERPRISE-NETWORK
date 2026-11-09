@@ -46,6 +46,8 @@ A centralized web server hosts the company's intranet website, which must be acc
 | HTTP Service        | Web Hosting            |
 | MAIL Service        | Mail sending|
 | DNS Service        | Web Requsting            |
+| DHCP Service        | Automaticaly assigning of IP  |
+| FTP Service        | File Fowrding            |
 | Trunk Links         | VLAN Traffic Transport |
 
 
@@ -59,6 +61,8 @@ The network consists of:
 * 6 PCs
 * 1 Web Server
 * 1 Mail Server
+* 1 DHCP Server
+* 1 FTP Server
 
 Departmental VLANs:
 
@@ -68,6 +72,7 @@ Departmental VLANs:
 | VLAN 20 | Human Resources | 192.168.20.0/24 |
 | VLAN 30 | IT Department   | 192.168.30.0/24 |
 | VLAN 40 | Mail   | 192.168.40.0/24 |
+| VLAN 50 | DHCP   | 192.168.51.0/24 |
 | VLAN 99 | Server Network  | 192.168.99.0/24 |
 
 
@@ -131,6 +136,8 @@ Departmental VLANs:
 
 ✅ Web Browser Access
 
+✅ DHCP Automatic assign of ip add
+
 ✅ End-to-End Connectivity Testing
 
 
@@ -185,6 +192,8 @@ The following tests were performed successfully:
 | HTTP Access              | ✅ Successful |
 | Mail Access              | ✅ Successful |
 | Browser Access           | ✅ Successful |
+| DHCP Access           | ✅ Successful |
+| FTP Access           | ✅ Successful |
 
 
 
@@ -308,6 +317,8 @@ This project demonstrates practical knowledge of:
 * Static IP Addressing
 * Web Server Deployment
 * HTTP Services
+* DHCP Services
+* FTP Services
 * Enterprise Network Design
 * Cisco IOS Configuration
 * Network Troubleshooting
